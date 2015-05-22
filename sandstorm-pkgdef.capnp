@@ -20,6 +20,7 @@ const pkgdef :Spk.PackageDefinition = (
     appTitle = (defaultText = "EtherDraw"),
 
     appVersion = 0,  # Increment this for every release.
+	appMarketingVersion = (defaultText = "0.1"),
 
     actions = [
       # Define your "new document" handlers here.
