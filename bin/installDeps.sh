@@ -51,6 +51,7 @@ fi
 echo "Ensure that all dependencies are up to date..."
 (
   npm install --loglevel warn
+  npm install sqlite3
 )
 
 #echo "Ensure jQuery is downloaded and up to date..."
