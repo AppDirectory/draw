@@ -23,7 +23,7 @@ Demo
 
 Installation
 ------------
-  1. Install Requirements. ``sudo apt-get update && sudo apt-get install libcairo2-dev libjpeg8-dev libpango1.0-dev libgif-dev build-essential g++``
+  1. Install Requirements. ``sudo apt-get update && sudo apt-get install libcairo2-dev libjpeg62-turbo-dev libpango1.0-dev libgif-dev build-essential g++``
   2. Install EtherDraw `` git clone git://github.com/JohnMcLear/draw.git ``
   3. Enter the EtherDraw folder `` cd draw ``
   4. Run EtherDraw `` bin/run.sh `` 
@@ -31,18 +31,10 @@ Installation
 
 Requirements
 ------------
- * [NodeJS > v12] (http://nodejs.org/)
+ * [NodeJS] (http://nodejs.org/)
  * Lib Cairo
  * Lib Jpeg
  * Lib Gif
- * Chuck Norris dreams in fists
-
-Thanks to..
------------
- * Isaac et al @ Node Team (Joyent)
- * Guillermo et al @ SocketIO Team (Automattic)
- * Canvas Team
- * PaperJS Team
 
 License
 -------

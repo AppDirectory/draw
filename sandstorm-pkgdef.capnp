@@ -19,9 +19,9 @@ const pkgdef :Spk.PackageDefinition = (
 
     appTitle = (defaultText = "EtherDraw"),
 
-    appVersion = 2,  # Increment this for every release.
+    appVersion = 3,  # Increment this for every release.
 
-    appMarketingVersion = (defaultText = "0.1.1"),
+    appMarketingVersion = (defaultText = "0.2"),
 
     actions = [
       # Define your "new document" handlers here.
@@ -59,6 +59,7 @@ const pkgdef :Spk.PackageDefinition = (
        pgpKeyring = embed "pgp-keyring",
 
        description = (defaultText = embed "description.md"),
+       shortDescription = (defaultText = "Whiteboard"),
 
        screenshots = [
          (width = 1920, height = 1080, png = embed "sandstorm-screenshot.png")
